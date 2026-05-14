@@ -1,155 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Clear Skin 24/7</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Clear Skin 24/7</title>
 
-  <!-- OPTIONAL: remove this if you don't have style.css -->
-  <!-- <link rel="stylesheet" href="style.css"> -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #fdfcfb;
-      color: #2a2a2a;
-    }
+<style>
+body{
+  margin:0;
+  font-family:Inter;
+  background:#f7f6f4;
+  color:#222;
+}
 
-    nav {
-      display: flex;
-      justify-content: space-between;
-      padding: 20px 40px;
-      background: white;
-    }
+/* NAV */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+  background:#fff;
+}
 
-    ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
+.logo{
+  font-family:Playfair Display;
+  font-size:24px;
+}
 
-    a {
-      text-decoration: none;
-      color: #555;
-    }
+ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+}
 
-    .page-header {
-      text-align: center;
-      padding: 60px 20px;
-    }
+a{
+  text-decoration:none;
+  color:#444;
+}
 
-    .about-section {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 40px;
-      align-items: center;
-      justify-content: center;
-      gap: 30px;
-    }
+/* HEADER */
+.header{
+  text-align:center;
+  padding:80px 20px;
+}
 
-    .about-image img {
-      width: 300px;
-      border-radius: 20px;
-    }
+.header h1{
+  font-family:Playfair Display;
+  font-size:48px;
+}
 
-    .about-text {
-      max-width: 400px;
-    }
+/* ABOUT SECTION */
+.about{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:40px;
+  padding:60px;
+}
 
-    .testimonials {
-      text-align: center;
-      padding: 50px 20px;
-    }
+.about img{
+  width:350px;
+  border-radius:20px;
+}
 
-    .testimonial-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
+.text{
+  max-width:400px;
+}
 
-    .testimonial-card {
-      background: white;
-      padding: 20px;
-      border-radius: 15px;
-      width: 250px;
-    }
+.text h2{
+  font-family:Playfair Display;
+}
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #888;
-    }
-  </style>
+/* VALUES */
+.values{
+  text-align:center;
+  padding:60px 20px;
+}
+
+.value-box{
+  display:inline-block;
+  background:white;
+  padding:25px;
+  margin:10px;
+  border-radius:15px;
+  width:220px;
+  box-shadow:0 10px 20px rgba(0,0,0,0.05);
+}
+
+/* FOOTER */
+footer{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:30px;
+  margin-top:50px;
+}
+</style>
 </head>
 
 <body>
 
+<!-- NAV -->
 <nav>
-  <h1>Clear Skin 24/7</h1>
+<h1 class="logo">Clear Skin 24/7</h1>
 
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
 </nav>
 
-<section class="page-header">
-  <h2>About Clear Skin 24/7</h2>
-  <p>Luxury skincare designed for glow, hydration, and confidence.</p>
+<!-- HEADER -->
+<section class="header">
+<h1>About Us</h1>
+<p>Simple. Clean. Effective skincare for everyday glow.</p>
 </section>
 
-<section class="about-section">
+<!-- ABOUT -->
+<section class="about">
 
-  <div class="about-image">
-    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop">
-  </div>
+<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop">
 
-  <div class="about-text">
-    <h2>Our Mission</h2>
-    <p>
-      Clear Skin 24/7 is built on simplicity and results. We create
-      skincare that is gentle, effective, and easy to use every day.
-    </p>
+<div class="text">
+<h2>Our Mission</h2>
+<p>
+Clear Skin 24/7 was created to simplify skincare.
+We believe glowing skin doesn’t need complicated routines —
+just the right ingredients and consistency.
+</p>
 
-    <p>
-      Our goal is to help you achieve naturally glowing skin without
-      complicated routines.
-    </p>
-  </div>
-
-</section>
-
-<section class="testimonials">
-
-  <h2>Why People Love Us</h2>
-
-  <div class="testimonial-container">
-
-    <div class="testimonial-card">
-      <p>“My skin has never looked better.”</p>
-      <h4>- Sophia M.</h4>
-    </div>
-
-    <div class="testimonial-card">
-      <p>“So simple but works so well.”</p>
-      <h4>- Emma L.</h4>
-    </div>
-
-    <div class="testimonial-card">
-      <p>“Feels like luxury skincare at home.”</p>
-      <h4>- Ava R.</h4>
-    </div>
-
-  </div>
+<p>
+Our products are designed to hydrate, balance,
+and enhance your natural beauty every day.
+</p>
+</div>
 
 </section>
 
+<!-- VALUES -->
+<section class="values">
+
+<h2>Why Choose Us</h2>
+
+<div class="value-box">
+<h3>Clean</h3>
+<p>Gentle ingredients for all skin types.</p>
+</div>
+
+<div class="value-box">
+<h3>Minimal</h3>
+<p>Simple routines that actually work.</p>
+</div>
+
+<div class="value-box">
+<h3>Effective</h3>
+<p>Real results you can see and feel.</p>
+</div>
+
+</section>
+
+<!-- FOOTER -->
 <footer>
-  <p>© 2026 Clear Skin 24/7</p>
+<p>© 2026 Clear Skin 24/7</p>
 </footer>
 
 </body>
